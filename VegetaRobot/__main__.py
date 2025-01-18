@@ -88,29 +88,29 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """ 
-*┗► What's Up, Earthling! ◄┛*
+*┗► What's Up, BeyBlader! ◄┛*
 
-~~ *I am the Prince of All Saiyans, Vegeta!* ~~
+~~ *I am the Top Blader of @BeybladeVerse, Free!* ~~
 
 ~ *Prepare yourself for my commands! ~
 Click the help button below if you dare* [❗]({})
 
-──『 *You better be ready to train hard!* 』──
+──『 *You better be ready to Be a Blader!* 』──
 """ 
 
 buttons = [
     [
         InlineKeyboardButton(
-                            text=f"{TextFont('ADD VEGETA TO GROUP')}",
+                            text=f"{TextFont('FREE DELAHOYA')}",
                             url=f"t.me/{BOT_USERNAME}?startgroup=true"),
                     ],
                      [
-                       InlineKeyboardButton(text=f"{TextFont('SUPPORT')}", url=f"https://t.me/{SUPPORT_CHAT}"),
-                       InlineKeyboardButton(text=f"{TextFont('UPDATES')}",  url=f"https://t.me/{UPDATES_CHANNEL}"),
+                       InlineKeyboardButton(text=f"{TextFont('VERSE')}", url=f"https://t.me/{SUPPORT_CHAT}"),
+                       InlineKeyboardButton(text=f"{TextFont('UPDATE')}",  url=f"https://t.me/{UPDATES_CHANNEL}"),
                     ],
                    [
-                       InlineKeyboardButton(text=f"{TextFont('NETWORK')}", url=f"https://t.me/nandhabots"),
-                       InlineKeyboardButton(text=f"{TextFont('LOGS')}", url=f"https://t.me/vegetalogs"),
+                       InlineKeyboardButton(text=f"{TextFont('NETWORK')}", url=f"https://t.me/Programming_XD"),
+                       InlineKeyboardButton(text=f"{TextFont('OWNER')}", url=f"https://t.me/Programmer_XD"),
                 ],[ InlineKeyboardButton(text=f"{TextFont('COMMANDS HELP')}", callback_data="help_back"
          ),
     ],
@@ -124,13 +124,13 @@ Below Click the module you know about module commands!*
 """
 
 HELP_MSG = "Click the button below to get help manu in your pm."
-DONATE_STRING = """*don't need donate I'm free for everyone add your group's in @VegetaRobot this is my donate🙂*"""
-HELP_IMG= "https://telegra.ph/file/9d2c6e3b28afe7619856e.jpg"
-GROUPSTART_IMG= "https://telegra.ph/file/1cbafa58dda18528f9e0c.mp4"
+DONATE_STRING = """*don't need donate I'm free for everyone add me in your group's @Free_Delahoya_Bot that's gonna be my donate🙂*"""
+HELP_IMG= "http://ibb.co/mCF3jnJ"
+GROUPSTART_IMG= "http://ibb.co/sy7xj7v"
 
-VEGETA_IMG = ( "https://telegra.ph//file/a47f16c936dbbd4165399.jpg",
-               "https://telegra.ph//file/5026650d5e3f0b83c6d29.jpg",
-               "https://telegra.ph/file/561fa547f3c4940c95ddf.jpg",)       
+VEGETA_IMG = ( "http://ibb.co/p0X7Q0p",
+               "http://ibb.co/gSmbhDT",
+               "http://ibb.co/CW3rPbv",)       
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -732,7 +732,7 @@ def main():
             )
 
     else:
-        LOGGER.info("Vegeta Is Now Alive And Functioning")
+        LOGGER.info("**Free Delahoya Is Now Alive And Functioning Smoothly**")
       
         updater.start_polling(
              timeout=25, 
